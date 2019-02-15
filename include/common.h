@@ -84,7 +84,7 @@ static inline void* fillAttrParamConst(void* dst, uint64_t src, size_t size) {
     COPY_CONST_VAL(dst, src, uint64_t);
     break;
   default:
-    printf("Unknown size: %d\n", size);
+    printf("Unknown size: %zd\n", size);
     return NULL;
   }
   return dst;

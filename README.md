@@ -19,7 +19,7 @@ This project enables running the Project Wycheproof test vectors on PKCS #11 dev
 
 ### Steps
     git clone https://github.com/awslabs/pkcs11-runners-for-project-wycheproof.git
-    mkdir build-pkcs11-runners-for-project-wycheproof && cd pkcs11-runners-for-project-wycheproof
+    mkdir build-pkcs11-runners-for-project-wycheproof && cd build-pkcs11-runners-for-project-wycheproof
     cmake ../pkcs11-runners-for-project-wycheproof
     make
 
