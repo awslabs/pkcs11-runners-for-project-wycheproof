@@ -4,6 +4,8 @@
 
 This project enables running the Project Wycheproof test vectors on PKCS #11 devices. It should compile and run on any modern Linux system with a PKCS #11 compliant device.
 
+[Security issue notifications](./CONTRIBUTING.md#security-issue-notifications)
+
 ## Building
 ### Dependencies
 * libssl-dev
